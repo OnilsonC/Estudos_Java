@@ -2,9 +2,9 @@ package com.example.primeiroprojeto.streammatch;
 
 public final class TituloOmdb {
 
-    private String title;
-    private String year;
-    private String runtime;
+    private final String title;
+    private final String year;
+    private final String runtime;
 
     TituloOmdb(String title, String year, String runtime) {
         this.title = title;
@@ -26,24 +26,12 @@ public final class TituloOmdb {
         return title;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
     public String getYear() {
         return year;
     }
 
-    public void setYear(String year) {
-        this.year = year;
-    }
-
     public String getRuntime() {
         return runtime;
-    }
-
-    public void setRuntime(String runtime) {
-        this.runtime = runtime;
     }
 
     @Override
