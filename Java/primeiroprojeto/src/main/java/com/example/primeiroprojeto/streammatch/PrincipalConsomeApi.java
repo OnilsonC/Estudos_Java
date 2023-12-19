@@ -18,29 +18,36 @@ public class PrincipalConsomeApi {
         var busca = input.nextLine();
 
         String endereco = "http://www.omdbapi.com/?t=" + busca + "&apikey=5618406c";
+        try {
+            HttpClient client = HttpClient.newHttpClient();
+            HttpRequest request = HttpRequest.newBuilder()
+                    .uri(URI.create(endereco))
+                    .build();
 
-        HttpClient client = HttpClient.newHttpClient();
-        HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create(endereco))
-                .build();
+            HttpResponse<String> response = client
+                    .send(request, HttpResponse.BodyHandlers.ofString());
 
-        HttpResponse<String> response = client
-                .send(request, HttpResponse.BodyHandlers.ofString());
+            String json = response.body();
+            System.out.println(json);
 
-        String json = response.body();
-        System.out.println(json);
+            //Gson gson = new Gson();
 
-        //Gson gson = new Gson();
+            Gson gson = new GsonBuilder()
+                    .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
+                    .create();
 
-        Gson gson = new GsonBuilder()
-                .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
-                .create();
+            TituloOmdb meuTituloOmdb = gson.fromJson(json, TituloOmdb.class);
+            System.out.println(meuTituloOmdb);
 
-        TituloOmdb meuTituloOmdb = gson.fromJson(json, TituloOmdb.class);
-        System.out.println(meuTituloOmdb);
-
-        System.out.println("Título convertido");
-        Titulo meuTitulo = new Titulo(meuTituloOmdb);
-        System.out.println(meuTitulo);
+            //try {
+            Titulo meuTitulo = new Titulo(meuTituloOmdb);
+            System.out.println("Título convertido");
+            System.out.println(meuTitulo);
+        } catch (NumberFormatException e) {
+            System.out.println("Aconteceu um erro: " + e.getMessage());
+        } catch (IllegalArgumentException e) {
+            System.out.println("Algum erro de argumento na busca: " + e.getMessage());
+        }
+            System.out.println("O programa finalizou corretamente");
     }
 }

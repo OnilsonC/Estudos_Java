@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cca48025-1a89-473b-8fa9-ea3b21c3e146" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Java/primeiroprojeto/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/primeiroprojeto/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/primeiroprojeto/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/primeiroprojeto/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/primeiroprojeto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/primeiroprojeto/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/primeiroprojeto/primeiroprojeto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/primeiroprojeto/primeiroprojeto.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/primeiroprojeto/src/main/java/com/example/primeiroprojeto/streammatch/PrincipalConsomeApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/primeiroprojeto/src/main/java/com/example/primeiroprojeto/streammatch/PrincipalConsomeApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/atividades/Adivinhacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/atividades/Adivinhacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/atividades/Condicionais.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/atividades/Condicionais.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/atividades/ExtratoConta.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/atividades/ExtratoConta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/atividades/HelloApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/atividades/HelloApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/atividades/HelloResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/atividades/HelloResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/atividades/Leitura.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/atividades/Leitura.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/atividades/LimiteCartao.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/atividades/LimiteCartao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/atividades/Loop.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/atividades/Loop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/atividades/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/atividades/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/atividades/OutroLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/atividades/OutroLoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/streammatch/Filmes.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/streammatch/Filmes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/streammatch/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/streammatch/Principal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/streammatch/PrincipalComListas.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/streammatch/PrincipalComListas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/streammatch/PrincipalConsomeApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/streammatch/PrincipalConsomeApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/streammatch/Series.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/streammatch/Series.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/streammatch/Titulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/streammatch/Titulo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/streammatch/TituloOmdb.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/primeiroprojeto/target/classes/com/example/primeiroprojeto/streammatch/TituloOmdb.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.6.2" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="17" />
+  </component>
+  <component name="ProjectId" id="2ZaZsot1bM2Y8CbjYokEK4jjW4V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Java" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cca48025-1a89-473b-8fa9-ea3b21c3e146" name="Changes" comment="" />
+      <created>1702662360148</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702662360148</updated>
+      <workItem from="1702662361558" duration="891000" />
+      <workItem from="1702663274725" duration="151000" />
+      <workItem from="1702994194562" duration="108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
