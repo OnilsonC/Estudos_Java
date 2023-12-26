@@ -28,6 +28,23 @@ public class ConsumoGoogleBooks {
         HttpResponse<String> response = client
                 .send(request, HttpResponse.BodyHandlers.ofString());
 
-        System.out.println(response.body());
+        String json = response.body();
+        //System.out.println(json);
+
+        //Gson gson = new Gson();
+        //LivrosGoogle livros = gson.fromJson(json, LivrosGoogle.class);
+
+
+        Gson gson = new GsonBuilder()
+                .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
+                .create();
+        LivrosGoogleImpl livros = gson.fromJson(json, LivrosGoogleImpl.class);
+        System.out.println(livros);
+
+        LivrosGoogle livrosImpl = gson.fromJson(json, LivrosGoogle.class);
+
+        LivrosGoogle livrosGoogle = new LivrosGoogle(livros);
+
+        System.out.println(livrosGoogle);
     }
 }
