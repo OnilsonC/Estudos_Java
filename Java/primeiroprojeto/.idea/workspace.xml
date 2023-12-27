@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5c7d4351-9199-4136-af57-432f61cf9988" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primeiroprojeto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/primeiroprojeto.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/primeiroprojeto/streammatch/PrincipalConsomeApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/primeiroprojeto/streammatch/PrincipalConsomeApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/atividades/Adivinhacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/atividades/Adivinhacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/atividades/Condicionais.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/atividades/Condicionais.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/atividades/ExtratoConta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/atividades/ExtratoConta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/atividades/HelloApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/atividades/HelloApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/atividades/HelloResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/atividades/HelloResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/atividades/Leitura.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/atividades/Leitura.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/atividades/LimiteCartao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/atividades/LimiteCartao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/atividades/Loop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/atividades/Loop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/atividades/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/atividades/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/atividades/OutroLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/atividades/OutroLoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/streammatch/Filmes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/streammatch/Filmes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/streammatch/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/streammatch/Principal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/streammatch/PrincipalComListas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/streammatch/PrincipalComListas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/streammatch/PrincipalConsomeApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/streammatch/PrincipalConsomeApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/streammatch/Series.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/streammatch/Series.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/streammatch/Titulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/streammatch/Titulo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/streammatch/TituloOmdb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/primeiroprojeto/streammatch/TituloOmdb.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.6.2" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="17" />
+  </component>
+  <component name="ProjectId" id="2Zac65JzJodMeRySC5zEs3tsiSy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RunManager">
+    <configuration name="PrincipalConsomeApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.primeiroprojeto.streammatch.PrincipalConsomeApi" />
+      <module name="primeiroprojeto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.primeiroprojeto.streammatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PrincipalConsomeApi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c7d4351-9199-4136-af57-432f61cf9988" name="Changes" comment="" />
+      <created>1702663452144</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702663452144</updated>
+      <workItem from="1702663453265" duration="3318000" />
+      <workItem from="1702901095735" duration="86000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
