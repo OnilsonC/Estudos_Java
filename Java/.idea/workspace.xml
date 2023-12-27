@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c35995b6-8533-474c-8fe0-5c6247dd3e93" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compras/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/compras/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/primeiroprojeto/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/primeiroprojeto/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primeiroprojeto/src/main/java/com/example/primeiroprojeto/streammatch/PrincipalConsomeApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/primeiroprojeto/src/main/java/com/example/primeiroprojeto/streammatch/PrincipalConsomeApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primeiroprojeto/src/main/java/com/example/primeiroprojeto/streammatch/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/primeiroprojeto/src/main/java/com/example/primeiroprojeto/streammatch/Titulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +56,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.primeiroprojeto.streammatch" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\onilson-csf\Documents\Estudos_Java\Java\.idea" />
       <recent name="C:\Users\onilson-csf\Documents\Estudos_Java\Java\atividadesapi\src" />
@@ -116,7 +116,7 @@
       <workItem from="1703599274613" duration="1468000" />
       <workItem from="1703686078578" duration="2899000" />
       <workItem from="1703700628431" duration="52000" />
-      <workItem from="1703705209088" duration="621000" />
+      <workItem from="1703705209088" duration="1645000" />
     </task>
     <servers />
   </component>

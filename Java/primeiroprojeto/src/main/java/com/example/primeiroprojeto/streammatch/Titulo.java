@@ -3,9 +3,9 @@ package com.example.primeiroprojeto.streammatch;
 import com.google.gson.annotations.SerializedName;
 
 public class Titulo implements Comparable<Titulo>{
-    @SerializedName("Title")
+    //@SerializedName("Title")
     private String nome;
-    @SerializedName("Year")
+    //@SerializedName("Year")
     private int anoLancamento;
     private int duracaoEmMinutos;
     private double somaAvaliacoes;
@@ -20,6 +20,10 @@ public class Titulo implements Comparable<Titulo>{
     }
 
     public Titulo(TituloOmdb tituloOmdb) {
+        if (tituloOmdb.getYear().length() > 4) {
+            throw new ErroDeConversaoDeAnoException("Não consegui converter o ano " +
+                    "porque tem mais de 04 caracteres");
+        }
         this.nome = tituloOmdb.getTitle();
         this.anoLancamento = Integer.valueOf(tituloOmdb.getYear());
         this.duracaoEmMinutos = Integer.valueOf(tituloOmdb.getRuntime().substring(0,2));

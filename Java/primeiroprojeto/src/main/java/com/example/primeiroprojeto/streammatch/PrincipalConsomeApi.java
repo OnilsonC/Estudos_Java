@@ -17,7 +17,7 @@ public class PrincipalConsomeApi {
         System.out.println("Digite o nome do filme: ");
         var busca = input.nextLine();
 
-        String endereco = "http://www.omdbapi.com/?t=" + busca + "&apikey=5618406c";
+        String endereco = "http://www.omdbapi.com/?t=" + busca.replace(" ", "+") + "&apikey=5618406c";
         try {
             HttpClient client = HttpClient.newHttpClient();
             HttpRequest request = HttpRequest.newBuilder()
@@ -47,6 +47,8 @@ public class PrincipalConsomeApi {
             System.out.println("Aconteceu um erro: " + e.getMessage());
         } catch (IllegalArgumentException e) {
             System.out.println("Algum erro de argumento na busca: " + e.getMessage());
+        } catch (ErroDeConversaoDeAnoException e) {
+            System.out.println(e.getMensagem());
         }
             System.out.println("O programa finalizou corretamente");
     }
