@@ -4,6 +4,7 @@ import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -43,6 +44,11 @@ public class PrincipalConsomeApi {
             Titulo meuTitulo = new Titulo(meuTituloOmdb);
             System.out.println("Título convertido");
             System.out.println(meuTitulo);
+
+            FileWriter escrita = new FileWriter("filmes.txt");
+            escrita.write(meuTitulo.toString());
+            escrita.close();
+            
         } catch (NumberFormatException e) {
             System.out.println("Aconteceu um erro: " + e.getMessage());
         } catch (IllegalArgumentException e) {
