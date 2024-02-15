@@ -20,8 +20,12 @@ public class Principal {
 
         System.out.println("Média de avaliações: " + filme1.mediaAvaliacao());
 
-        Serie lost = new Serie();
+        Filme filme2 = new Filme();
+        filme2.setNome("O Senhor dos anéis: As Duas Torres");
+        filme2.setAnoDeLancamento(2002);
+        filme2.setDuracaoEmMinutos(210);
 
+        Serie lost = new Serie();
         lost.setNome("Lost");
         lost.setAnoDeLancamento(2004);
         lost.setTemporadas(6);
@@ -40,7 +44,12 @@ public class Principal {
 
         CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
 
-        System.out.println(calculadora.calculaTempo(filme1));
-        System.out.println(calculadora.calculaTempo(lost));
+        calculadora.inclui(filme1);
+        calculadora.inclui(filme2);
+
+        calculadora.inclui(lost);
+
+        System.out.println("Tempo total incluído: " + calculadora.getTempoTotal());
+
     }
 }

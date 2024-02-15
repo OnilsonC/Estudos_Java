@@ -9,7 +9,7 @@ public class Titulo {
     private int duracaoEmMinutos;
 
     public void exibeFichaTecnica() {
-        System.out.println("Nome do Filme: " + nome);
+        System.out.println("Nome: " + nome);
         System.out.println("Ano de lançamento: " + anoDeLancamento);
     }
 
