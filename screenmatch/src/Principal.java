@@ -42,14 +42,27 @@ public class Principal {
 
         System.out.println("Total em minutos da série Lost: " + lost.getDuracaoEmMinutos());
 
+<<<<<<< HEAD
         CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
 
+=======
+        Filme filme2 = new Filme();
+        filme2.setNome("O Senhor dos Anéis: As Duas Torres");
+        filme2.setAnoDeLancamento(2002);
+        filme2.setDuracaoEmMinutos(210);
+
+        CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
+>>>>>>> 16a6385533e6cd4fbe71859c67ff9016ebbc5b1b
         calculadora.inclui(filme1);
         calculadora.inclui(filme2);
 
         calculadora.inclui(lost);
 
+<<<<<<< HEAD
         System.out.println("Tempo total incluído: " + calculadora.getTempoTotal());
+=======
+        System.out.println(calculadora.getTempoTotal());
+>>>>>>> 16a6385533e6cd4fbe71859c67ff9016ebbc5b1b
 
     }
 }

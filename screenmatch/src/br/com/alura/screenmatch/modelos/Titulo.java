@@ -63,4 +63,25 @@ public class Titulo {
         this.incluidoNoPlano = incluidoNoPlano;
     }
 
+<<<<<<< HEAD
+=======
+    public void setDuracaoEmMinutos(int duracaoEmMinutos) {
+        this.duracaoEmMinutos = duracaoEmMinutos;
+    }
+
+    public void exibeFichaTecnica() {
+        System.out.println("Nome do Filme: " + nome);
+        System.out.println("Ano de lançamento: " + anoDeLancamento);
+    }
+
+    public void avalia(double nota) {
+        somaDasAvaliacoes += nota;
+        totalDeAvaliacoes++;
+    }
+
+    public double mediaAvaliacao() {
+        double media = somaDasAvaliacoes / totalDeAvaliacoes;
+        return media;
+    }
+>>>>>>> 16a6385533e6cd4fbe71859c67ff9016ebbc5b1b
 }
