@@ -44,6 +44,10 @@ public class Titulo {
         this.incluidoNoPlano = incluidoNoPlano;
     }
 
+    public void setDuracaoEmMinutos(int duracaoEmMinutos) {
+        this.duracaoEmMinutos = duracaoEmMinutos;
+    }
+
     public void exibeFichaTecnica() {
         System.out.println("Nome do Filme: " + nome);
         System.out.println("Ano de lançamento: " + anoDeLancamento);

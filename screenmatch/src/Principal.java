@@ -1,3 +1,4 @@
+import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
 import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
 
@@ -7,6 +8,7 @@ public class Principal {
         Filme filme1 = new Filme();
         filme1.setNome("O Podesoso Chefão");
         filme1.setAnoDeLancamento(1972);
+        filme1.setDuracaoEmMinutos(180);
 
         filme1.exibeFichaTecnica();
 
@@ -28,5 +30,19 @@ public class Principal {
         lost.exibeFichaTecnica();
 
         System.out.println("Total em minutos da série Lost: " + lost.getDuracaoEmMinutos());
+
+        Filme filme2 = new Filme();
+        filme2.setNome("O Senhor dos Anéis: As Duas Torres");
+        filme2.setAnoDeLancamento(2002);
+        filme2.setDuracaoEmMinutos(210);
+
+        CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
+        calculadora.inclui(filme1);
+        calculadora.inclui(filme2);
+
+        calculadora.inclui(lost);
+
+        System.out.println(calculadora.getTempoTotal());
+
     }
 }
