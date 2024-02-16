@@ -1,4 +1,6 @@
 import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
+import br.com.alura.screenmatch.calculos.FiltroRecomendacao;
+import br.com.alura.screenmatch.modelos.Episodio;
 import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
 
@@ -12,9 +14,9 @@ public class Principal {
 
         filme1.exibeFichaTecnica();
 
-        filme1.avalia(8);
         filme1.avalia(6);
-        filme1.avalia(10);
+        filme1.avalia(6);
+        filme1.avalia(8);
 
         System.out.println("Total das avaliações: " + filme1.getTotalDeAvaliacoes());
 
@@ -42,27 +44,23 @@ public class Principal {
 
         System.out.println("Total em minutos da série Lost: " + lost.getDuracaoEmMinutos());
 
-<<<<<<< HEAD
         CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
-
-=======
-        Filme filme2 = new Filme();
-        filme2.setNome("O Senhor dos Anéis: As Duas Torres");
-        filme2.setAnoDeLancamento(2002);
-        filme2.setDuracaoEmMinutos(210);
-
-        CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
->>>>>>> 16a6385533e6cd4fbe71859c67ff9016ebbc5b1b
         calculadora.inclui(filme1);
         calculadora.inclui(filme2);
 
         calculadora.inclui(lost);
 
-<<<<<<< HEAD
         System.out.println("Tempo total incluído: " + calculadora.getTempoTotal());
-=======
-        System.out.println(calculadora.getTempoTotal());
->>>>>>> 16a6385533e6cd4fbe71859c67ff9016ebbc5b1b
 
+        System.out.println(calculadora.getTempoTotal());
+
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+        filtro.filtra(filme1);
+
+        Episodio episodio = new Episodio();
+        episodio.setNumero(1);
+        episodio.setSerie(lost);
+        episodio.setTotalVisualizacoes(300);
+        filtro.filtra(episodio);
     }
 }

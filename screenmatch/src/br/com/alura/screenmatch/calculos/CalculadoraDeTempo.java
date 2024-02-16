@@ -5,7 +5,6 @@ import br.com.alura.screenmatch.modelos.Serie;
 import br.com.alura.screenmatch.modelos.Titulo;
 
 public class CalculadoraDeTempo {
-<<<<<<< HEAD
 
     private int tempoTotal;
 
@@ -18,13 +17,6 @@ public class CalculadoraDeTempo {
 //    }
 
     //polimorfismo
-    public void inclui(Titulo t) {
-        this.tempoTotal += t.getDuracaoEmMinutos();
-    }
-
-=======
-    private int tempoTotal;
-
 //    public void inclui(Filme f) {
 //        this.tempoTotal += f.getDuracaoEmMinutos();
 //    }
@@ -35,7 +27,7 @@ public class CalculadoraDeTempo {
     public void inclui(Titulo t) {
         this.tempoTotal += t.getDuracaoEmMinutos();
     }
->>>>>>> 16a6385533e6cd4fbe71859c67ff9016ebbc5b1b
+
     public int getTempoTotal() {
         return tempoTotal;
     }
