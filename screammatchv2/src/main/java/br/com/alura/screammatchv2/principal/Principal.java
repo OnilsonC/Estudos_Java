@@ -1,5 +1,6 @@
 package br.com.alura.screammatchv2.principal;
 
+import br.com.alura.screammatchv2.model.DadosEpisodio;
 import br.com.alura.screammatchv2.model.DadosSerie;
 import br.com.alura.screammatchv2.model.DadosTemporada;
 import br.com.alura.screammatchv2.service.ConsumoAPI;
@@ -35,5 +36,14 @@ public class Principal {
 			temporadas.add(dadosTemporada);
 		}
 		temporadas.forEach(System.out::println);
+
+//        for (int i = 0; i < dadosSerie.totalTemporadas(); i++) {
+//            List<DadosEpisodio> episodiosTemporada = temporadas.get(i).episodio();
+//                for (int j = 0; j < episodiosTemporada.size(); j++) {
+//                    System.out.println(episodiosTemporada.get(j).titulo());
+//            }
+//        }
+
+        temporadas.forEach(t -> t.episodio().forEach(e -> System.out.println(e.titulo())));
     }
 }
