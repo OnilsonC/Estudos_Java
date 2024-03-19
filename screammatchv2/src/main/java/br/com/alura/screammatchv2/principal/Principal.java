@@ -6,9 +6,8 @@ import br.com.alura.screammatchv2.model.DadosTemporada;
 import br.com.alura.screammatchv2.service.ConsumoAPI;
 import br.com.alura.screammatchv2.service.ConverteDados;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Principal {
 
@@ -44,6 +43,26 @@ public class Principal {
 //            }
 //        }
 
-        temporadas.forEach(t -> t.episodio().forEach(e -> System.out.println(e.titulo())));
+//        temporadas.forEach(t -> t.episodio().forEach(e -> System.out.println(e.titulo())));
+
+//        List<String> nomes = Arrays.asList("Onilson", "Helena", "Wanessa", "Michel");
+//
+//        nomes.stream()
+//                .sorted()
+//                .limit(2)
+//                .filter(n -> n.startsWith("H"))
+//                .map(n -> n.toUpperCase())
+//                .forEach(System.out::println);
+
+        List<DadosEpisodio> dadosEpisodios = temporadas.stream()
+                .flatMap(t -> t.episodio().stream())
+                .collect(Collectors.toList());
+
+        System.out.println("\nTop 5 episódios da série:");
+        dadosEpisodios.stream()
+                        .filter(e -> !e.avaliacao().equalsIgnoreCase("N/A"))
+                        .sorted(Comparator.comparing(DadosEpisodio::avaliacao).reversed())
+                        .limit(5)
+                        .forEach(System.out::println);
     }
 }
