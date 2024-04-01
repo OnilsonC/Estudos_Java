@@ -1,6 +1,7 @@
 package br.com.alura;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class TestaListaDeCurso {
@@ -19,17 +20,19 @@ public class TestaListaDeCurso {
         javaColecoes.adiciona(new Aula("Novo Curso Java", 25));
         javaColecoes.adiciona(new Aula("Spring Boot", 21));
         javaColecoes.adiciona(new Aula("Certificacao Java SE 8 Programmer I", 28));
-        System.out.println(javaColecoes.getAulas());
+        //System.out.println(javaColecoes.getAulas());
 
-        List<Curso> listaImutavel = new ArrayList<>();
-//        listaImutavel.add(javaColecoes);
+        List<Aula> aulasImutaveis = javaColecoes.getAulas();
+        System.out.println(aulasImutaveis);
 
-        List<Curso> listas = new ArrayList<>(listaImutavel);
-        listas.add(javaColecoes);
+        List<Aula> aulaList = new ArrayList<>(aulasImutaveis);
 
-        System.out.println(listas);
+        Collections.sort(aulaList);
+        System.out.println(aulaList);
 
         System.out.println(aulas == javaColecoes.getAulas());
+
+        System.out.println(javaColecoes);
 
         System.out.println(javaColecoes.somaTempo());
 

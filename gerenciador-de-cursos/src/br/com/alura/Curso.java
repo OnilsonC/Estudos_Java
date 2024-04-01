@@ -31,19 +31,21 @@ public class Curso {
     }
 
     public int somaTempo() {
-        int total = 0;
-        for (Aula aula : aulas) {
-            total += aula.getTempo();
-        }
-        return total;
+//        int total = 0;
+//        for (Aula aula : aulas) {
+//            total += aula.getTempo();
+//        }
+//        return total;
+        return aulas.stream().mapToInt(Aula::getTempo).sum();
     }
 
     @Override
     public String toString() {
         return "Curso{" +
-                "nome='" + nome + '\'' +
-                ", instrutor='" + instrutor + '\'' +
-                ", aulas=" + getAulas() +
-                '}';
+                "nome = " + nome +
+                ", instrutor = " + instrutor +
+                ", TempoTotal = " + this.somaTempo() +
+                ", aulas = " + getAulas() +
+                "}";
     }
 }
