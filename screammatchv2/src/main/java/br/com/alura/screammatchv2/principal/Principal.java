@@ -26,11 +26,9 @@ public class Principal {
 
         var json = consumoAPI.obterDados(ENDERECO + nomeSerie.replace(" ", "+") + API_KEY);
         DadosSerie dadosSerie = converter.obterDados(json, DadosSerie.class);
-
 //        System.out.println(dadosSerie);
 
         List<DadosTemporada> temporadas = new ArrayList<>();
-
 		for (int i = 1; i <= dadosSerie.totalTemporadas(); i++) {
 			json = consumoAPI.obterDados(ENDERECO + nomeSerie.replace(" ", "+") + "&season=" + i + API_KEY);
 			DadosTemporada dadosTemporada = converter.obterDados(json, DadosTemporada.class);
@@ -57,27 +55,46 @@ public class Principal {
 //                .map(n -> n.toUpperCase())
 //                .forEach(System.out::println);
 
-        List<DadosEpisodio> dadosEpisodios = temporadas.stream()
-                .flatMap(t -> t.episodio().stream())
+        List<Episodio> episodios = temporadas.stream()
+                .flatMap(t -> t.episodio().stream()
+                .map(d -> new Episodio(t.numero(), d)))
                 .collect(Collectors.toList());
 
-        System.out.println("\nTop 10 episódios da série:");
-        dadosEpisodios.stream()
-                        .filter(e -> !e.avaliacao().equalsIgnoreCase("N/A"))
-                        .peek(e -> System.out.println("Filtrar os que nao tem N/A " + e))
-                        .sorted(Comparator.comparing(DadosEpisodio::avaliacao).reversed())
-                        .peek(e -> System.out.println("Ordenação " + e))
-                        .map(e -> e.titulo().toUpperCase())
-                        .peek(e -> System.out.println("Mapeamento maiúsculas " + e))
-                        .limit(10)
-                        .forEach(System.out::println);
+        episodios.forEach(System.out::println);
 
-//        List<Episodio> episodios = temporadas.stream()
+
+        //List<Episodio> episodios = new ArrayList<>();
+        System.out.println("Digite um trecho do título do episódio");
+        var trechoTitulo = leitura.nextLine();
+
+        Optional<Episodio> buscaEpisodio = episodios.stream()
+                .filter(e -> e.getTitulo().toUpperCase().contains(trechoTitulo.toUpperCase()))
+                .findFirst();
+        if (buscaEpisodio.isPresent()) {
+            System.out.println("Episódio encontrado!");
+            System.out.println("Temporada: " + buscaEpisodio.get().getTemporada());
+        }else {
+            System.out.println("Episódio não encontrado.");
+        }
+
+
+//        System.out.println("\nTop 10 episódios da série:");
+//        dadosEpisodios.stream()
+//                        .filter(e -> !e.avaliacao().equalsIgnoreCase("N/A"))
+//                        .peek(e -> System.out.println("Filtrar os que nao tem N/A " + e))
+//                        .sorted(Comparator.comparing(DadosEpisodio::avaliacao).reversed())
+//                        .peek(e -> System.out.println("Ordenação " + e))
+//                        .map(e -> e.titulo().toUpperCase())
+//                        .peek(e -> System.out.println("Mapeamento maiúsculas " + e))
+//                        .limit(10)
+//                        .forEach(System.out::println);
+
+//        List<Episodio> episodios2 = temporadas.stream()
 //                .flatMap(t -> t.episodio().stream()
 //                        .map(d -> new Episodio(t.numero(), d))
 //                ).collect(Collectors.toList());
 //
-//        episodios.forEach(System.out::println);
+//        episodios2.forEach(System.out::println);
 
 //        System.out.println("A partir de qual data pretende realizar a busca? ");
 //        var ano = leitura.nextInt();
