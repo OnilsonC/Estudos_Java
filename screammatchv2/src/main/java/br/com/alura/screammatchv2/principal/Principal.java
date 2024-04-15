@@ -73,6 +73,7 @@ public class Principal {
         if (buscaEpisodio.isPresent()) {
             System.out.println("Episódio encontrado!");
             System.out.println("Temporada: " + buscaEpisodio.get().getTemporada());
+            System.out.println("N° Episódio: " + buscaEpisodio.get().getNumeroEpisodio());
         }else {
             System.out.println("Episódio não encontrado.");
         }
@@ -111,5 +112,10 @@ public class Principal {
 //                                " Data lançamento " + e.getDataLancamento().format(df) + "]"
 //                ));
 
+        Map<Integer, Double> buscaAvaliacaoTemporada = episodios
+                .stream()
+                .collect(Collectors.groupingBy(Episodio::getTemporada,
+                        Collectors.averagingDouble(Episodio::getAvaliacao)));
+        System.out.println(buscaAvaliacaoTemporada);
     }
 }
