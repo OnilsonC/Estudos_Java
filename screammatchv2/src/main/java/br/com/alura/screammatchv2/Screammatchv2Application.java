@@ -18,11 +18,5 @@ public class Screammatchv2Application implements CommandLineRunner {
 		Principal principal = new Principal();
 
 		principal.exibeMenu();
-
-//		var json = consumoApi.obterDados("http://www.omdbapi.com/?t=Gilmore+Girls&apikey=5618406c");
-//		json = consumoApi.obterDados("https://coffee.alexflipnote.dev/random.json");
-//		System.out.println(json);
-//		json = consumoApi.obterDados("http://www.omdbapi.com/?t=Gilmore+Girls&season=1&episode=2&apikey=5618406c");
-
 	}
 }
